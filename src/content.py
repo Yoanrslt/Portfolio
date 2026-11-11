@@ -57,7 +57,7 @@ UI = {
         "languages": "Langues",
         "certs": "Brevets, permis et secourisme",
         "path_kicker": "Parcours",
-        "path_title": "Mon parcours, du plus récent au plus ancien",
+        "path_title": "Mon parcours",
         "path_intro": "Expériences professionnelles, recherche et formations. Cliquez sur une étape pour découvrir le détail, les missions et les photos.",
         "filters": [("all", "Tout"), ("exp", "Expériences"), ("edu", "Formations")],
         "type_labels": {"exp": "Expérience", "edu": "Formation", "project": "Projet R&D"},
@@ -142,7 +142,7 @@ UI = {
         "languages": "Languages",
         "certs": "Licences, certificates and first aid",
         "path_kicker": "Journey",
-        "path_title": "My journey, most recent first",
+        "path_title": "My journey",
         "path_intro": "Professional experience, research and education. Click a step to see the details, missions and photos.",
         "filters": [("all", "All"), ("exp", "Experience"), ("edu", "Education")],
         "type_labels": {"exp": "Experience", "edu": "Education", "project": "R&D project"},
@@ -301,13 +301,8 @@ LETTERS = {
 PAGES = [
     {
         "slug": "master-bti", "section": "education", "kind": "edu", "year": "2025 – 2027",
-        "cover": "bti-approche.jpg",
-        "gallery": [("bti-approche.jpg", "Une approche pluridisciplinaire : caractérisation mécanique, imagerie 3D, motion capture, simulation", "A multidisciplinary approach: mechanical testing, 3D imaging, motion capture, simulation"),
-                    ("bti-multiechelle.jpg", "Des approches multi-échelles : de la cellule à l'organe", "Multi-scale approaches: from cell to organ"),
-                    ("bti-cours-1.jpg", "Maquette du M1 – semestre 1", "MSc year 1 curriculum – semester 1"),
-                    ("bti-cours-2.jpg", "Maquette du M1 – semestres 1 et 2", "MSc year 1 curriculum – semesters 1 and 2"),
-                    ("bti-cours-3.jpg", "Maquette du M2 – semestre 3", "MSc year 2 curriculum – semester 3"),
-                    ("bti-cours-4.jpg", "Maquette du M2 – déploiement industriel", "MSc year 2 curriculum – industrial deployment")],
+        "icon": "cap",
+        "gallery": [],
         "fr": {
             "title": "Master Bio-ingénierie des Tissus et des Implants",
             "short": "Master IEAP BTI",
@@ -315,12 +310,11 @@ PAGES = [
             "place": "Marseille",
             "period": "Sept. 2025 – 2027",
             "role": "Étudiant en Master 1 puis Master 2",
-            "summary": "Une formation pluridisciplinaire de haut niveau, entre industrie et recherche, pour concevoir et évaluer des dispositifs médicaux implantables qui restaurent les fonctions biomécaniques.",
+            "summary": "Une formation pluridisciplinaire, entre industrie et recherche, pour concevoir et évaluer des dispositifs médicaux implantables.",
             "timeline": "Formation d'ingénieur biomédical à l'interface mécanique, biologie et clinique, adossée à l'Institut des Sciences du Mouvement (AMU & CNRS) et à l'IML de l'AP-HM.",
             "sections": [
                 ("La formation", "<p>Le Master STAPS IEAP parcours <strong>Bio-ingénierie des Tissus et des Implants</strong> forme des ingénieurs capables de développer des implants et dispositifs médicaux pour restaurer les fonctions biomécaniques. Il associe la connaissance du corps humain (anatomie fonctionnelle, biomécanique, neurosciences) à l'ingénierie appliquée : capture du mouvement, modélisation numérique et biomatériaux.</p><p>La formation s'appuie sur le laboratoire <strong>ISM</strong> (Institut des Sciences du Mouvement, AMU & CNRS) et sur l'<strong>IML</strong> (Institut Marseillais de l'appareil Locomoteur, AP-HM), avec des intervenants chercheurs, cliniciens et industriels.</p>"),
                 ("Ce que j'y apprends", "<ul><li><strong>Analyser</strong> : biomécanique, neurophysiologie, neurosciences comportementales, pathologies musculo-squelettiques, mécanobiologie, physique et biocompatibilité des biomatériaux, biotribologie, mécanique des fluides et hémodynamique.</li><li><strong>Concevoir</strong> : CAO et modélisation numérique (SolidWorks, Abaqus, 3-matic), éléments finis, segmentation 3D, instrumentation et mesures, traitement du signal, programmation (Python, MATLAB), statistiques, intelligence artificielle, imagerie médicale.</li><li><strong>Mettre en œuvre</strong> : conception d'évaluations cliniques des DMI, fabrication et déploiement industriel des implants, affaires réglementaires (MDR 2017/745, ISO 13485, ISO 17025), management de projet et d'équipe, conduite de projet en anglais.</li></ul>"),
-                ("Débouchés visés", "<p>Ingénieur R&D (design d'implants, biomatériaux), ingénieur qualité et affaires réglementaires, ingénieur d'application, ingénieur affaires cliniques, ou chercheur.</p>"),
             ],
             "skills": ["Biomécanique", "Biomatériaux", "CAO", "Éléments finis", "Imagerie médicale", "Traitement du signal", "Python · MATLAB", "MDR 2017/745", "Gestion de projet"],
         },
@@ -331,12 +325,11 @@ PAGES = [
             "place": "Marseille, France",
             "period": "Sept. 2025 – 2027",
             "role": "MSc student (years 1 and 2)",
-            "summary": "A high-level multidisciplinary programme, between industry and research, to design and evaluate implantable medical devices that restore biomechanical function.",
+            "summary": "A multidisciplinary programme, between industry and research, to design and evaluate implantable medical devices.",
             "timeline": "Biomedical engineering degree at the crossroads of mechanics, biology and clinical practice, backed by the Institute of Movement Sciences (AMU & CNRS) and the IML at AP-HM hospitals.",
             "sections": [
                 ("The programme", "<p>The <strong>Tissue and Implant Bioengineering</strong> track of the IEAP Master's trains engineers to develop implants and medical devices that restore biomechanical function. It combines knowledge of the human body (functional anatomy, biomechanics, neuroscience) with applied engineering: motion capture, numerical modelling and biomaterials.</p><p>It is backed by the <strong>ISM</strong> laboratory (Institute of Movement Sciences, AMU & CNRS) and the <strong>IML</strong> (Marseille Institute of the Locomotor System, AP-HM), with researchers, clinicians and industry professionals teaching.</p>"),
                 ("What I learn", "<ul><li><strong>Analyse</strong>: biomechanics, neurophysiology, behavioural neuroscience, musculoskeletal disorders, mechanobiology, biomaterial physics and biocompatibility, biotribology, fluid mechanics and haemodynamics.</li><li><strong>Design</strong>: CAD and numerical modelling (SolidWorks, Abaqus, 3-matic), finite element analysis, 3D segmentation, instrumentation and measurement, signal processing, programming (Python, MATLAB), statistics, artificial intelligence, medical imaging.</li><li><strong>Deliver</strong>: clinical evaluation design for implantable devices, implant manufacturing and industrial deployment, regulatory affairs (MDR 2017/745, ISO 13485, ISO 17025), project and team management, project work in English.</li></ul>"),
-                ("Target careers", "<p>R&D engineer (implant design, biomaterials), quality and regulatory affairs engineer, application engineer, clinical affairs engineer, or researcher.</p>"),
             ],
             "skills": ["Biomechanics", "Biomaterials", "CAD", "Finite element analysis", "Medical imaging", "Signal processing", "Python · MATLAB", "MDR 2017/745", "Project management"],
         },
@@ -722,10 +715,15 @@ EXTRA_TIMELINE = [
             "timeline": "Cours le matin six jours sur sept, ateliers et activités sportives l'après-midi."},
      "en": {"title": "Scientific baccalaureate, sport-study schedule", "org": "Lycée Le Mirail · Bordeaux", "period": "2014 – 2017",
             "timeline": "Classes in the morning six days a week, sport in the afternoon."}},
+    {"kind": "exp", "year": "2023 – 2024",
+     "fr": {"title": "Agent de sécurité", "org": "Job étudiant · Chambéry", "period": "Sept. 2023 – mai 2024",
+            "timeline": "Surveillance de bars, de lieux sensibles et de férias, en parallèle de mes études."},
+     "en": {"title": "Security Officer", "org": "Student job · Chambéry", "period": "Sept. 2023 – May 2024",
+            "timeline": "Security for bars, sensitive sites and ferias (street festivals), alongside my studies."}},
 ]
 
 # Ordre chronologique du parcours (du plus récent au plus ancien)
-TIMELINE_ORDER = ["master-bti", "hti-technologies", "mobilis", "cirris", "rouge-et-or", "licence-staps", "libm",
+TIMELINE_ORDER = ["hti-technologies", "mobilis", "master-bti", "cirris", "rouge-et-or", "licence-staps", "libm", 2,
                   "gendarmerie", "armee-de-terre", "premiers-emplois", 0, 1]
 
 # Projets mis en avant (slug de page, tags)
