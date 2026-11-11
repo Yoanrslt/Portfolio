@@ -306,8 +306,8 @@ def build_home(lang):
     {section_head(u['skills_kicker'], u['skills_title'])}
     <h3 class="sub-title reveal">{esc(u['skills_tech'])}</h3>
     <div class="grid grid-2">{tech}</div>
-    <div class="grid grid-3 skills-bottom">
-      <article class="card reveal"><h4>{esc(u['skills_soft'])}</h4><ul class="list-check">{soft}</ul></article>
+    <article class="card soft-card reveal"><h4>{esc(u['skills_soft'])}</h4><ul class="list-check list-2col">{soft}</ul></article>
+    <div class="grid grid-2 skills-bottom">
       <article class="card reveal"><h4>{esc(u['languages'])}</h4>{langs}</article>
       <article class="card reveal"><h4>{esc(u['certs'])}</h4><ul class="list-check">{certs}</ul></article>
     </div>
