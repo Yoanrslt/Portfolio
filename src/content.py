@@ -599,12 +599,11 @@ PAGES = [
             "place": "Guéret, missions en métropole et outre-mer",
             "period": "Déc. 2019 – juil. 2023",
             "role": "Sous-officier, gendarmerie mobile",
-            "summary": "Patrouilles et maintien de l'ordre en milieux sensibles, déplacements de longue durée jusqu'en Guyane et en Nouvelle-Calédonie : quatre ans à décider sous pression, à encadrer et à appliquer des procédures strictes.",
+            "summary": "Patrouilles et maintien de l'ordre en milieux sensibles, déplacements de longue durée en Guyane et en Nouvelle-Calédonie : quatre ans à agir sous pression, à encadrer et à appliquer des procédures strictes.",
             "timeline": "Maintien de l'ordre et missions en métropole et outre-mer ; encadrement jusqu'à 30 opérateurs, décisions sous forte pression.",
-            "highlights": [("30", "opérateurs encadrés"), ("4 mois", "de missions outre-mer (Guyane, Nouvelle-Calédonie)"), ("1 an", "de préparation aux tests du GIGN")],
             "sections": [
                 ("Missions", "<ul><li><strong>Patrouille et maintien de l'ordre</strong> en milieux sensibles, avec des déplacements de longue durée, jusqu'à 4 mois en outre-mer (Guyane, Nouvelle-Calédonie).</li><li><strong>Encadrement</strong> jusqu'à 30 opérateurs dans un environnement à forts enjeux de sécurité ; supervision et planification d'entraînements pour la cohésion d'équipe.</li><li><strong>Décisions autonomes</strong> en situation critique et sous forte pression, pour la continuité des opérations et la sécurité des personnels.</li><li><strong>Référent traçabilité</strong> : fiabilité des rapports et respect strict des procédures internes.</li><li>Extractions judiciaires de détenus sensibles, encadrement d'élèves en école de gendarmerie, présentation de la gendarmerie mobile aux jeunes.</li></ul>"),
-                ("Pourquoi une reconversion ?", "<p>J'ai aimé le terrain, l'équipe et le sens du service. Il me manquait une stimulation intellectuelle. Ma passion pour le sport et mon appétence pour les sciences m'ont conduit vers la bio-ingénierie, avec une envie intacte : être utile, au plus près des personnes. En parallèle, j'ai mené une préparation intensive d'un an aux tests d'entrée du GIGN.</p>"),
+                ("Pourquoi une reconversion ?", "<p>J'ai aimé le terrain, l'équipe et le sens du service. Il me manquait une stimulation intellectuelle. Ma passion pour le sport et mon appétence pour les sciences m'ont conduit vers la bio-ingénierie, avec une envie intacte : être utile, au plus près des personnes.</p>"),
                 ("Ce que j'en retiens", "<p>Le calme et la méthode quand la sécurité est en jeu, la communication claire avec des interlocuteurs très différents (hiérarchie, partenaires civils, équipes) et une culture de la procédure et de la traçabilité, que je retrouve aujourd'hui dans la qualité et le réglementaire.</p>"),
             ],
             "skills": ["Leadership", "Cohésion d'équipe", "Décision sous pression", "Procédures strictes", "Traçabilité & conformité", "Communication", "Pédagogie", "Gestion de conflit"],
@@ -616,12 +615,11 @@ PAGES = [
             "place": "Guéret, missions in mainland France and overseas",
             "period": "Dec. 2019 – Jul. 2023",
             "role": "Non-commissioned officer, Mobile Gendarmerie",
-            "summary": "Patrols and public order operations in sensitive areas, with long deployments as far as French Guiana and New Caledonia: four years of decisions under pressure, team leadership and strict procedures.",
+            "summary": "Patrols and public order operations in sensitive areas, with long deployments in French Guiana and New Caledonia: four years of acting under pressure, team leadership and strict procedures.",
             "timeline": "Public order operations in mainland France and overseas; led up to 30 people, made decisions under heavy pressure.",
-            "highlights": [("30", "team members led"), ("4 months", "of overseas deployments (French Guiana, New Caledonia)"), ("1 year", "of training for the GIGN selection")],
             "sections": [
                 ("Missions", "<ul><li><strong>Patrols and public order</strong> in sensitive areas, with long deployments of up to 4 months overseas (French Guiana, New Caledonia).</li><li><strong>Leadership</strong> of up to 30 people in a high-stakes security environment; supervising and planning training to build team cohesion.</li><li><strong>Autonomous decisions</strong> in critical, high-pressure situations to keep operations running and personnel safe.</li><li><strong>Traceability lead</strong>: reliable reports and strict adherence to internal procedures.</li><li>Escorting high-risk detainees to court, supervising cadets at a Gendarmerie school, presenting the Mobile Gendarmerie to young people.</li></ul>"),
-                ("Why a career change?", "<p>I loved the field work, the team and the sense of service, but I missed intellectual challenge. My passion for sport and my appetite for science led me to bioengineering, with the same drive: to be useful, close to people. Alongside my duties, I spent a year training intensively for the GIGN selection tests.</p>"),
+                ("Why a career change?", "<p>I loved the field work, the team and the sense of service, but I missed intellectual challenge. My passion for sport and my appetite for science led me to bioengineering, with the same drive: to be useful, close to people.</p>"),
                 ("Key takeaways", "<p>Calm and method when safety is at stake, clear communication with very different people (chain of command, civilian partners, teams) and a culture of procedure and traceability that I find again today in quality and regulatory work.</p>"),
             ],
             "skills": ["Leadership", "Team cohesion", "Decisions under pressure", "Strict procedures", "Traceability & compliance", "Communication", "Teaching", "Conflict management"],
@@ -630,7 +628,8 @@ PAGES = [
     {
         "slug": "armee-de-terre", "section": "experiences", "kind": "exp", "year": "2018 – 2019",
         "cover": "armee.jpg",
-        "gallery": [("armee.jpg", "Réserviste opérationnel au 9e Régiment de Soutien Aéromobile", "Operational reservist with the 9th Airmobile Support Regiment")],
+        "gallery": [("armee.jpg", "Réserviste opérationnel au 9e Régiment de Soutien Aéromobile", "Operational reservist with the 9th Airmobile Support Regiment"),
+                    ("armee-terrain.jpg", "En exercice sur le terrain", "Field exercise")],
         "fr": {
             "title": "Réserviste opérationnel",
             "short": "Armée de Terre",
@@ -640,7 +639,6 @@ PAGES = [
             "role": "Réserviste opérationnel",
             "summary": "Mission Sentinelle, garde d'enceinte sous haute surveillance et encadrement de formations de réservistes : la découverte des valeurs militaires.",
             "timeline": "Mission Sentinelle, garde d'enceinte sous haute surveillance, encadrement de la formation de réservistes.",
-            "highlights": [("Sentinelle", "mission de protection du territoire"), ("Formation", "encadrement de réservistes")],
             "sections": [
                 ("Missions", "<ul><li>Mission Sentinelle de protection du territoire.</li><li>Garde d'enceinte sous haute surveillance.</li><li>Encadrement de la formation de nouveaux réservistes.</li></ul>"),
                 ("Ce que j'en retiens", "<p>La découverte des valeurs militaires, une condition physique exigeante et des aptitudes qui m'ont conduit vers la gendarmerie : sens de l'observation, gestion de la pression, patience et résilience.</p>"),
@@ -656,7 +654,6 @@ PAGES = [
             "role": "Operational reservist",
             "summary": "Operation Sentinelle, high-security site guarding and training new reservists: my first experience of military values.",
             "timeline": "Operation Sentinelle, high-security site guarding, training new reservists.",
-            "highlights": [("Sentinelle", "homeland protection operation"), ("Training", "supervising new reservists")],
             "sections": [
                 ("Missions", "<ul><li>Operation Sentinelle (homeland protection).</li><li>Guarding a high-security site.</li><li>Supervising the training of new reservists.</li></ul>"),
                 ("Key takeaways", "<p>My first experience of military values, demanding physical standards and the qualities that led me to the Gendarmerie: observation, handling pressure, patience and resilience.</p>"),
