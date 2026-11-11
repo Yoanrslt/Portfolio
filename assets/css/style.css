@@ -289,6 +289,15 @@ ul { margin: 0; padding: 0; }
 .detail-block ul { list-style: none; display: grid; gap: 12px; }
 .detail-block li { position: relative; padding-left: 24px; }
 .detail-block li::before { content: ""; position: absolute; left: 0; top: .72em; width: 12px; height: 1px; background: var(--gold); }
+.inline-fig { margin: 22px 0 26px; }
+.inline-fig .g-open { aspect-ratio: auto; background: #fff; }
+.inline-fig .g-open img { height: auto; max-height: 520px; object-fit: contain; }
+.inline-fig figcaption { color: var(--muted); font-size: .88rem; margin-top: 10px; line-height: 1.5; padding-left: 14px; border-left: 2px solid var(--gold-deep); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 20px 0 24px; }
+.tile { background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius-sm); padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.tile-value { font-family: var(--serif); font-size: 1.45rem; font-weight: 600; line-height: 1.15; background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.tile-label { color: var(--muted); font-size: .86rem; line-height: 1.45; }
+.formulas .tile-value { font-family: "Cambria Math", Cambria, Georgia, serif; font-style: italic; font-size: 1.3rem; }
 .meta-line { color: var(--gold) !important; font-size: .88rem !important; font-weight: 600; letter-spacing: .05em; margin-bottom: 10px; }
 .detail-aside { position: sticky; top: calc(var(--header-h) + 20px); display: grid; gap: 20px; }
 .facts dl { margin: 0 0 22px; display: grid; gap: 4px; }

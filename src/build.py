@@ -11,6 +11,7 @@ Lit src/content.py et écrit les pages HTML :
 import html
 import os
 import posixpath
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -371,6 +372,35 @@ def build_home(lang):
 
 
 # ---------------------------------------------------------------- pages détaillées
+def expand(body, f):
+    """Remplace les balises [[fig:...]], [[stats:...]] et [[formulas:...]] du contenu par leur HTML.
+
+    [[fig:image.jpg|Légende]]            figure cliquable (visionneuse)
+    [[stats:valeur~libellé;valeur~...]]  rangée de chiffres clés
+    [[formulas:formule~libellé;...]]     rangée de formules
+    """
+    def fig(m):
+        img, cap = m.group(1), m.group(2)
+        src = versioned(f, "img/" + img)
+        cls = "" if img.startswith(PHOTO_PREFIXES) else " fit"
+        return (f'<figure class="inline-fig"><button class="g-open{cls}" data-src="{src}" data-caption="{esc(cap)}" '
+                f'aria-label="{esc(cap)}"><img src="{src}" alt="{esc(cap)}" loading="lazy"></button>'
+                f'<figcaption>{esc(cap)}</figcaption></figure>')
+
+    def tiles(cls):
+        def render(m):
+            items = [it.split("~", 1) for it in m.group(1).split(";")]
+            return f'<div class="{cls}">' + "".join(
+                f'<div class="tile"><span class="tile-value">{esc(v)}</span><span class="tile-label">{esc(l)}</span></div>'
+                for v, l in items) + "</div>"
+        return render
+
+    body = re.sub(r"\[\[fig:([^|\]]+)\|([^\]]+)\]\]", fig, body)
+    body = re.sub(r"\[\[stats:([^\]]+)\]\]", tiles("tiles"), body)
+    body = re.sub(r"\[\[formulas:([^\]]+)\]\]", tiles("tiles formulas"), body)
+    return body
+
+
 def build_detail(lang, p, prev_p, next_p):
     u = UI[lang]
     d = p[lang]
@@ -384,7 +414,7 @@ def build_detail(lang, p, prev_p, next_p):
     cover = ""
     if p.get("cover"):
         fit = "" if p["cover"].startswith(PHOTO_PREFIXES) else " fit"
-        cover = f'<div class="detail-cover{fit} reveal"><img src="{asset(f, "img/" + p["cover"])}" alt="{esc(d["title"])}"></div>'
+        cover = f'<div class="detail-cover{fit} reveal"><img src="{versioned(f, "img/" + p["cover"])}" alt="{esc(d["title"])}"></div>'
     else:
         cover = f'<div class="detail-cover detail-cover-icon reveal">{icon(p.get("icon", "briefcase"))}</div>'
 
@@ -394,7 +424,8 @@ def build_detail(lang, p, prev_p, next_p):
             f'<div class="highlight"><span class="stat-value">{esc(v)}</span><span class="stat-label">{esc(l)}</span></div>'
             for v, l in d["highlights"]) + "</div>"
 
-    sections = "".join(f'<section class="detail-block reveal"><h2>{esc(h)}</h2>{body}</section>' for h, body in d["sections"])
+    sections = "".join(f'<section class="detail-block reveal"><h2>{esc(h)}</h2>{expand(body, f)}</section>'
+                       for h, body in d["sections"])
 
     gallery = ""
     if p.get("gallery"):
