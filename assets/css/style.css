@@ -273,6 +273,8 @@ ul { margin: 0; padding: 0; }
 .detail-org { color: var(--gold-light); font-weight: 500; margin-bottom: 18px; }
 .detail-cover { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); aspect-ratio: 4 / 3; background: #f4f2ee; }
 .detail-cover img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; }
+.detail-cover.fit { background: #fff; }
+.detail-cover.fit img { object-fit: contain; }
 .detail-cover-icon { display: grid; place-items: center; background: radial-gradient(circle at 50% 40%, rgba(184, 145, 58, .2), transparent 65%), var(--card); }
 .detail-cover-icon .ico { width: 110px; height: 110px; color: var(--gold-light); stroke-width: 1; }
 .highlights { margin-top: 44px; display: grid; grid-template-columns: repeat(3, 1fr); border: 1px solid var(--line-soft); border-radius: var(--radius); background: linear-gradient(180deg, var(--card), var(--bg-2)); }

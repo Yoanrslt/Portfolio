@@ -89,6 +89,14 @@ def asset(from_file, a):
     return link(from_file, "assets/" + a)
 
 
+def versioned(from_file, a):
+    """Lien vers un fichier CSS/JS avec ?v=<empreinte> pour forcer le rafraîchissement du cache."""
+    import hashlib
+    with open(os.path.join(ROOT, "assets", *a.split("/")), "rb") as fh:
+        v = hashlib.md5(fh.read()).hexdigest()[:8]
+    return f"{asset(from_file, a)}?v={v}"
+
+
 # ---------------------------------------------------------------- gabarit
 def head(lang, from_file, title, desc, other_file):
     u = UI[lang]
@@ -110,7 +118,7 @@ def head(lang, from_file, title, desc, other_file):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
-<link rel="stylesheet" href="{asset(from_file, 'css/style.css')}">
+<link rel="stylesheet" href="{versioned(from_file, 'css/style.css')}">
 </head>
 """
 
@@ -164,7 +172,7 @@ def footer(lang, from_file):
   <figure><img alt=""><figcaption></figcaption></figure>
   <button class="lb-nav lb-next" aria-label="{u['next']}">{icon('arrow')}</button>
 </div>
-<script src="{asset(from_file, 'js/main.js')}" defer></script>
+<script src="{versioned(from_file, 'js/main.js')}" defer></script>
 </body>
 </html>
 """
@@ -375,7 +383,8 @@ def build_detail(lang, p, prev_p, next_p):
 
     cover = ""
     if p.get("cover"):
-        cover = f'<div class="detail-cover reveal"><img src="{asset(f, "img/" + p["cover"])}" alt="{esc(d["title"])}"></div>'
+        fit = "" if p["cover"].startswith(PHOTO_PREFIXES) else " fit"
+        cover = f'<div class="detail-cover{fit} reveal"><img src="{asset(f, "img/" + p["cover"])}" alt="{esc(d["title"])}"></div>'
     else:
         cover = f'<div class="detail-cover detail-cover-icon reveal">{icon(p.get("icon", "briefcase"))}</div>'
 
