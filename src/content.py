@@ -268,30 +268,30 @@ LETTERS = {
         "pdf": "lettre-recommandation-hti.pdf",
         "name": "Morgane Lignereux",
         "fr": {"role": "Responsable Qualité · HTI Technologies", "date": "Juillet 2026",
-               "quote": "Son sérieux, sa motivation et son implication ont été unanimement appréciés par l'équipe HTI. Yoan a fait preuve d'un véritable savoir-être professionnel, alliant autonomie et esprit d'équipe.",
+               "quote": "Yoan s'est intégré avec aisance et naturel au sein de l'équipe. Sa bonne humeur, son sens du contact et son envie d'apprendre lui ont permis de trouver rapidement sa place et de créer des liens de confiance avec ses collègues. […] Son sérieux, sa motivation et son implication ont été unanimement appréciés par l'équipe HTI. Yoan a fait preuve d'un véritable savoir-être professionnel, alliant autonomie et esprit d'équipe.",
                "context": "Tutrice de mon stage de M1 au service qualité"},
         "en": {"role": "Quality Manager · HTI Technologies", "date": "July 2026",
-               "quote": "His seriousness, motivation and commitment were unanimously appreciated by the HTI team. Yoan showed genuine professional conduct, combining autonomy and team spirit.",
+               "quote": "Yoan fitted into the team with ease and naturalness. His good humour, his way with people and his eagerness to learn quickly earned him his place and the trust of his colleagues. […] His seriousness, motivation and commitment were unanimously appreciated by the HTI team. Yoan showed genuine professional conduct, combining autonomy and team spirit.",
                "context": "Supervisor of my MSc year-1 internship in the quality department"},
     },
     "laval": {
         "pdf": "lettre-recommandation-universite-laval.pdf",
         "name": "Martin Simoneau, Ph. D.",
         "fr": {"role": "Professeur titulaire · Département de kinésiologie, Université Laval", "date": "Mars 2025",
-               "quote": "Yoan est un étudiant brillant : il a obtenu l'un des meilleurs résultats, 20 points au-dessus de la moyenne. Il réalise avec professionnalisme et rigueur toutes les tâches qui lui sont assignées.",
+               "quote": "Yoan est un étudiant brillant : il a obtenu l'un des meilleurs résultats, 20 points au-dessus de la moyenne. Il réalise avec professionnalisme et rigueur toutes les tâches qui lui sont assignées. Il est organisé, autonome et minutieux.",
                "context": "Professeur et responsable de mon stage de recherche au CIRRIS"},
         "en": {"role": "Full Professor · Department of Kinesiology, Université Laval", "date": "March 2025",
-               "quote": "Yoan is a brilliant student: he achieved one of the best results, 20 points above the average. He carries out every task assigned to him with professionalism and rigour.",
+               "quote": "Yoan is a brilliant student: he achieved one of the best results, 20 points above the average. He carries out every task assigned to him with professionalism and rigour. He is organised, autonomous and meticulous.",
                "context": "Professor and supervisor of my research internship at CIRRIS"},
     },
     "usmb": {
         "pdf": "lettre-recommandation-usmb-libm.pdf",
         "name": "Pierre Samozino",
         "fr": {"role": "MCF-HDR · Directeur du département STAPS, Université Savoie Mont Blanc", "date": "Mars 2025",
-               "quote": "Il a su montrer une grande autonomie, rigueur et maturité dans ce travail. C'est assez rare qu'on donne ce type de mission à un étudiant de L2.",
+               "quote": "C'est un étudiant très sérieux et dynamique. […] Il a su montrer une grande autonomie, rigueur et maturité dans ce travail. C'est assez rare qu'on donne ce type de mission à un étudiant de L2.",
                "context": "Enseignant de biomécanique et responsable de mon stage au LIBM"},
         "en": {"role": "Associate Professor (HDR) · Head of the Sports Science Department, Université Savoie Mont Blanc", "date": "March 2025",
-               "quote": "He showed great autonomy, rigour and maturity in this work. It is quite rare for this kind of assignment to be given to a second-year undergraduate.",
+               "quote": "He is a very serious and dynamic student. […] He showed great autonomy, rigour and maturity in this work. It is quite rare for this kind of assignment to be given to a second-year undergraduate.",
                "context": "Biomechanics lecturer and supervisor of my internship at LIBM"},
     },
 }
@@ -433,10 +433,9 @@ PAGES = [
             "role": "Stage de recherche, Licence 3",
             "summary": "Traitement et analyse sous MATLAB de données neuromécaniques (réflexe cutané, cohérence intermusculaire, mécanismes sensorimoteurs), en collaboration avec l'Université Polytechnique Hauts-de-France (Valenciennes).",
             "timeline": "Traitement de données EMG sous MATLAB : réflexe cutané, cohérence intermusculaire et mécanismes sensorimoteurs, en collaboration internationale.",
-            "highlights": [("MATLAB", "scripts de traitement des signaux EMG"), ("2 pays", "projet inter-universitaire France · Québec"), ("+20 pts", "au-dessus de la moyenne en analyse du mouvement")],
             "sections": [
                 ("Contexte", "<p>Pendant mon année d'échange à l'Université Laval, j'ai intégré l'équipe de recherche du Pr Martin Simoneau, dont je suivais aussi les cours d'analyse cinétique et cinématique et de traitement de signaux en neuromécanique. Le projet portait sur les <strong>mécanismes sensorimoteurs</strong> : réflexe cutané, rôle des mécanorécepteurs et cohérence intermusculaire.</p>"),
-                ("Missions", "<ul><li>Revue de littérature pour identifier les protocoles expérimentaux et les méthodes de traitement du signal les plus pertinents.</li><li>Écriture de scripts MATLAB de traitement et d'analyse des signaux EMG.</li><li>Organisation et structuration de larges jeux de données pour des analyses reproductibles.</li><li>Échanges réguliers avec les chercheurs sur les choix méthodologiques et l'interprétation des résultats préliminaires.</li></ul>"),
+                ("Missions", "<ul><li>Revue de littérature pour identifier les protocoles expérimentaux et les méthodes de traitement du signal les plus pertinents.</li><li>Adaptation et utilisation de scripts MATLAB pour traiter et analyser les signaux EMG, et participation à leur écriture.</li><li>Organisation et structuration de larges jeux de données pour des analyses reproductibles.</li><li>Échanges réguliers avec les chercheurs sur les choix méthodologiques et l'interprétation des résultats préliminaires.</li></ul>"),
                 ("Ce que j'en retiens", "<p>La recherche en contexte international et inter-universitaire, l'exigence de reproductibilité des analyses et l'habitude de la veille scientifique.</p>"),
             ],
             "skills": ["MATLAB", "Traitement du signal", "EMG", "Revue de littérature", "Reproductibilité", "Veille scientifique", "Recherche internationale"],
@@ -450,10 +449,9 @@ PAGES = [
             "role": "Research internship, BSc year 3",
             "summary": "MATLAB processing and analysis of neuromechanical data (cutaneous reflex, intermuscular coherence, sensorimotor mechanisms), in collaboration with Université Polytechnique Hauts-de-France (Valenciennes).",
             "timeline": "EMG data processing in MATLAB: cutaneous reflex, intermuscular coherence and sensorimotor mechanisms, in an international collaboration.",
-            "highlights": [("MATLAB", "EMG signal processing scripts"), ("2 countries", "France · Quebec inter-university project"), ("+20 pts", "above average in human movement analysis")],
             "sections": [
                 ("Context", "<p>During my exchange year at Université Laval, I joined Prof. Martin Simoneau's research team; I was also taking his courses on kinetic and kinematic analysis and on neuromechanical signal processing. The project studied <strong>sensorimotor mechanisms</strong>: cutaneous reflex, the role of mechanoreceptors and intermuscular coherence.</p>"),
-                ("Missions", "<ul><li>Literature review to identify the most relevant experimental protocols and signal processing methods.</li><li>Writing MATLAB scripts to process and analyse EMG signals.</li><li>Organising and structuring large datasets for reproducible analyses.</li><li>Regular discussions with researchers on methodological choices and the interpretation of preliminary results.</li></ul>"),
+                ("Missions", "<ul><li>Literature review to identify the most relevant experimental protocols and signal processing methods.</li><li>Adapting and using MATLAB scripts to process and analyse EMG signals, and contributing to writing them.</li><li>Organising and structuring large datasets for reproducible analyses.</li><li>Regular discussions with researchers on methodological choices and the interpretation of preliminary results.</li></ul>"),
                 ("Key takeaways", "<p>Research in an international, inter-university setting, a demand for reproducible analyses and the habit of keeping up with the scientific literature.</p>"),
             ],
             "skills": ["MATLAB", "Signal processing", "EMG", "Literature review", "Reproducibility", "Scientific watch", "International research"],
@@ -461,7 +459,7 @@ PAGES = [
     },
     {
         "slug": "rouge-et-or", "section": "experiences", "kind": "exp", "year": "2025",
-        "icon": "swim",
+        "cover": "rouge-et-or-logo.jpg",
         "gallery": [],
         "fr": {
             "title": "Préparateur physique",
@@ -498,7 +496,7 @@ PAGES = [
     },
     {
         "slug": "licence-staps", "section": "education", "kind": "edu", "year": "2023 – 2025",
-        "icon": "cap",
+        "cover": "usmb-presidence.jpg", "cover_class": "wide",
         "gallery": [],
         "fr": {
             "title": "Licence STAPS – Ergonomie et Performance Sportive",
@@ -509,9 +507,8 @@ PAGES = [
             "role": "Admis directement en 2e année par validation des acquis (VAPP)",
             "summary": "Une licence centrée sur la physiologie, la biomécanique et la recherche expérimentale, dont une année complète en échange universitaire au Québec.",
             "timeline": "Admis directement en L2 par validation des acquis, puis 3e année en échange à l'Université Laval (Québec). Deux stages de recherche.",
-            "highlights": [("VAPP", "admission directe en 2e année"), ("1 an", "d'échange à l'Université Laval"), ("2", "stages de recherche (LIBM, CIRRIS)")],
             "sections": [
-                ("Une reprise d'études", "<p>Après quatre ans en gendarmerie, j'ai été admis directement en deuxième année de licence grâce à une <strong>validation des acquis professionnels et personnels (VAPP)</strong>. Mon projet : construire une carrière autour de deux domaines que je considère complémentaires, le sport et les sciences.</p>"),
+                ("Une reprise d'études", "<p>Après quatre ans en gendarmerie, j'ai été admis directement en deuxième année de licence grâce à une <strong>validation des acquis professionnels et personnels (VAPP)</strong>. Mon projet : construire une carrière autour de deux domaines que je considère complémentaires, la physiologie humaine et les sciences.</p>"),
                 ("Ce que j'y ai appris", "<ul><li>Physiologie, biomécanique et sciences du corps humain en contexte médical.</li><li>Mise en place de protocoles expérimentaux et collecte de données en laboratoire.</li><li>Recherche expérimentale, avec deux stages réalisés à mon initiative : au LIBM (Chambéry) puis au CIRRIS (Québec).</li><li>Autonomie et adaptation à un environnement universitaire nord-américain, en parallèle de jobs étudiants (agent de sécurité à Chambéry, préparateur physique à Québec).</li></ul>"),
             ],
             "skills": ["Physiologie", "Biomécanique", "Protocoles expérimentaux", "Collecte de données", "Recherche", "Adaptabilité"],
@@ -525,9 +522,8 @@ PAGES = [
             "role": "Admitted directly into year 2 through recognition of prior experience (VAPP)",
             "summary": "A degree focused on physiology, biomechanics and experimental research, including a full exchange year in Quebec.",
             "timeline": "Admitted directly into year 2 through recognition of prior experience, then year 3 as an exchange student at Université Laval (Quebec). Two research internships.",
-            "highlights": [("VAPP", "direct entry into year 2"), ("1 year", "exchange at Université Laval"), ("2", "research internships (LIBM, CIRRIS)")],
             "sections": [
-                ("Going back to university", "<p>After four years in the Gendarmerie, I was admitted directly into the second year of the degree through <strong>recognition of prior professional and personal experience (VAPP)</strong>. My plan: build a career around two fields I see as complementary, sport and science.</p>"),
+                ("Going back to university", "<p>After four years in the Gendarmerie, I was admitted directly into the second year of the degree through <strong>recognition of prior professional and personal experience (VAPP)</strong>. My plan: build a career around two fields I see as complementary, human physiology and science.</p>"),
                 ("What I learned", "<ul><li>Physiology, biomechanics and human body sciences in a medical context.</li><li>Setting up experimental protocols and collecting laboratory data.</li><li>Experimental research, with two internships I sought out myself: at LIBM (Chambéry), then at CIRRIS (Quebec).</li><li>Autonomy and adaptation to a North American university, alongside student jobs (security guard in Chambéry, strength coach in Quebec).</li></ul>"),
             ],
             "skills": ["Physiology", "Biomechanics", "Experimental protocols", "Data collection", "Research", "Adaptability"],
@@ -535,7 +531,9 @@ PAGES = [
     },
     {
         "slug": "libm", "section": "experiences", "kind": "exp", "year": "2024", "letter": "usmb",
-        "icon": "chart",
+        "cover": "libm-campus.jpg",
+        "cover_credit": {"fr": "Campus de l'Université Savoie Mont Blanc au Bourget-du-Lac, où se trouve le LIBM. Photo : Florian Pépellin, Wikimedia Commons, CC BY-SA 4.0 (recadrée)",
+                         "en": "Université Savoie Mont Blanc campus in Le Bourget-du-Lac, home of the LIBM. Photo: Florian Pépellin, Wikimedia Commons, CC BY-SA 4.0 (cropped)"},
         "gallery": [],
         "fr": {
             "title": "Stagiaire de recherche en biomécanique",
@@ -546,9 +544,8 @@ PAGES = [
             "role": "Stage de recherche, Licence 2",
             "summary": "Conception en autonomie d'un protocole et d'un dispositif de mesure pour évaluer la validité et la reproductibilité d'un test force-vitesse au tirage vertical.",
             "timeline": "Conception autonome d'un protocole et d'un dispositif de mesure force-vitesse, recrutement d'une trentaine de participants.",
-            "highlights": [("~30", "participants recrutés en autonomie"), ("L2", "une mission rarement confiée à ce niveau"), ("Force-vitesse", "validité et reproductibilité d'un test")],
             "sections": [
-                ("Contexte", "<p>Stage réalisé à mon initiative sur un projet du Pr Pierre Samozino : mettre en place une nouvelle méthodologie pour évaluer les <strong>relations force-vitesse-puissance</strong> sur un mouvement de tirage des membres supérieurs.</p>"),
+                ("Contexte", "<p>Stage réalisé à mon initiative sur un projet du Pr Pierre Samozino : mettre en place une nouvelle méthodologie pour évaluer les <strong>relations force-vitesse</strong> sur un mouvement de tirage des membres supérieurs.</p>"),
                 ("Missions", "<ul><li>Revue de littérature sur les profils force-vitesse pour définir les paramètres clés du protocole.</li><li>Conception d'un protocole et d'un dispositif de mesure évaluant la validité et la reproductibilité d'un test de tirage vertical, avec standardisation des conditions de mesure.</li><li>Prospection, sélection et recrutement d'une trentaine de participants, dans le respect de l'éthique et de la représentativité.</li><li>Gestion des capteurs, des prises de mesure et traitement des données.</li></ul>"),
                 ("Ce que j'en retiens", "<p>Mener seul une étude, de la question de recherche aux données : une première expérience complète de la méthodologie expérimentale et de l'instrumentation.</p>"),
             ],
@@ -563,9 +560,8 @@ PAGES = [
             "role": "Research internship, BSc year 2",
             "summary": "Independently designed a protocol and a measurement setup to assess the validity and reliability of a force-velocity test on a vertical pull movement.",
             "timeline": "Independent design of a force-velocity protocol and measurement setup; recruited about thirty participants.",
-            "highlights": [("~30", "participants recruited independently"), ("Year 2", "an assignment rarely given at this level"), ("Force-velocity", "test validity and reliability")],
             "sections": [
-                ("Context", "<p>An internship I sought out myself, on a project led by Prof. Pierre Samozino: developing a new method to assess <strong>force-velocity-power relationships</strong> in an upper-limb pulling movement.</p>"),
+                ("Context", "<p>An internship I sought out myself, on a project led by Prof. Pierre Samozino: developing a new method to assess <strong>force-velocity relationships</strong> in an upper-limb pulling movement.</p>"),
                 ("Missions", "<ul><li>Literature review on force-velocity profiles to define the key protocol parameters.</li><li>Designing a protocol and measurement setup to assess the validity and reliability of a vertical pull test, with standardised measurement conditions.</li><li>Finding, screening and recruiting about thirty participants, in line with ethics and representativeness.</li><li>Handling sensors and measurements, and processing the data.</li></ul>"),
                 ("Key takeaways", "<p>Running a study on my own, from research question to data: a first complete experience of experimental methodology and instrumentation.</p>"),
             ],
@@ -722,8 +718,8 @@ PROJECTS = [
      "fr": {"title": "Protocole force-vitesse au tirage vertical", "text": "Protocole et dispositif de mesure conçus en autonomie, validité et reproductibilité d'un test, 30 participants.", "tags": ["Biomécanique", "Instrumentation", "Statistiques"]},
      "en": {"title": "Force-velocity protocol for a vertical pull", "text": "Protocol and measurement setup designed independently; test validity and reliability with 30 participants.", "tags": ["Biomechanics", "Instrumentation", "Statistics"]}},
     {"slug": "cirris", "image": None, "icon": "wave",
-     "fr": {"title": "Analyse neuromécanique des signaux EMG", "text": "Scripts MATLAB de traitement EMG (réflexe cutané, cohérence intermusculaire) dans un projet franco-québécois.", "tags": ["MATLAB", "Traitement du signal", "Recherche"]},
-     "en": {"title": "Neuromechanical EMG signal analysis", "text": "MATLAB EMG processing scripts (cutaneous reflex, intermuscular coherence) in a French-Quebec project.", "tags": ["MATLAB", "Signal processing", "Research"]}},
+     "fr": {"title": "Analyse neuromécanique des signaux EMG", "text": "Traitement de signaux EMG sous MATLAB (réflexe cutané, cohérence intermusculaire) dans un projet franco-québécois.", "tags": ["MATLAB", "Traitement du signal", "Recherche"]},
+     "en": {"title": "Neuromechanical EMG signal analysis", "text": "EMG signal processing in MATLAB (cutaneous reflex, intermuscular coherence) in a French-Quebec project.", "tags": ["MATLAB", "Signal processing", "Research"]}},
 ]
 
 # Au-delà du CV

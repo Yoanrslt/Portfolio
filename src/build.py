@@ -22,7 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGE_BY_SLUG = {p["slug"]: p for p in PAGES}
 # Images "photo" (recadrées) ; les autres (diapositives, schémas) sont affichées en entier
 PHOTO_PREFIXES = ("gend-", "armee", "blockout", "hti-plasma", "hti-ceramiques", "hti-implants", "hti-usinage",
-                  "hti-production", "mobilis-prototype", "voyage", "parachut", "profil")
+                  "hti-production", "mobilis-prototype", "voyage", "parachut", "profil", "rouge-et-or", "usmb", "libm")
 
 
 def is_portrait(img):
@@ -156,14 +156,6 @@ def footer(lang, from_file):
     u = UI[lang]
     return f"""<footer class="site-footer">
   <div class="wrap footer-inner">
-    <div class="footer-brand"><span class="monogram">YR</span>
-      <div><strong>Yoan Rousselot</strong><span>{esc(u['footer'])}</span></div>
-    </div>
-    <div class="footer-links">
-      <a href="sms:{PERSON['phone_intl']}">{icon('sms')}<span>{PERSON['phone_display']}</span></a>
-      <a href="mailto:{PERSON['email']}">{icon('mail')}<span>{PERSON['email']}</span></a>
-      <a href="{PERSON['linkedin']}" target="_blank" rel="noopener">{icon('linkedin')}<span>LinkedIn</span></a>
-    </div>
     <p class="copy">© 2026 Yoan Rousselot</p>
   </div>
 </footer>
@@ -269,14 +261,16 @@ def build_home(lang):
         d = L[lang]
         tr = f'<span class="translated">{esc(u["translated"])}</span>' if u["translated"] else ""
         recos += f"""<figure class="card reco-card reveal">
-  {icon('quote', 'ico quote-ico')}
-  <blockquote>« {esc(d['quote'])} »</blockquote>{tr}
+  <div class="reco-quote">{icon('quote', 'ico quote-ico')}
+  <blockquote>« {esc(d['quote'])} »</blockquote>{tr}</div>
+  <div class="reco-author">
   <figcaption>
     <strong>{esc(L['name'])}</strong>
     <span>{esc(d['role'])}</span>
     <span class="muted small">{esc(d['context'])} · {esc(d['date'])}</span>
   </figcaption>
   <a class="btn btn-ghost btn-sm" href="{asset(f, 'docs/' + L['pdf'])}" target="_blank" rel="noopener">{icon('pdf')}{esc(u['read_letter'])}</a>
+  </div>
 </figure>"""
 
     import urllib.parse as up
@@ -330,9 +324,6 @@ def build_home(lang):
     {section_head(u['path_kicker'], u['path_title'], u['path_intro'])}
     <div class="filters reveal" role="group">{filters}</div>
     <ol class="timeline">{tl}</ol>
-    <h3 class="sub-title reveal">{esc(u['beyond_title'])}</h3>
-    <p class="section-intro reveal">{esc(u['beyond_intro'])}</p>
-    <div class="grid grid-4">{beyond}</div>
   </div>
 </section>
 
@@ -346,11 +337,18 @@ def build_home(lang):
 <section class="section" id="recommandations">
   <div class="wrap">
     {section_head(u['reco_kicker'], u['reco_title'], u['reco_intro'])}
-    <div class="grid grid-3">{recos}</div>
+    <div class="reco-list">{recos}</div>
   </div>
 </section>
 
-<section class="section alt" id="contact">
+<section class="section alt" id="au-dela">
+  <div class="wrap">
+    {section_head('Personnel' if lang == 'fr' else 'Personal', u['beyond_title'], u['beyond_intro'])}
+    <div class="grid grid-4">{beyond}</div>
+  </div>
+</section>
+
+<section class="section" id="contact">
   <div class="wrap">
     {section_head(u['contact_kicker'], u['contact_title'], u['contact_intro'])}
     <div class="contact-grid">
@@ -414,7 +412,11 @@ def build_detail(lang, p, prev_p, next_p):
     cover = ""
     if p.get("cover"):
         fit = "" if p["cover"].startswith(PHOTO_PREFIXES) else " fit"
+        if p.get("cover_class"):
+            fit += " " + p["cover_class"]
         cover = f'<div class="detail-cover{fit} reveal"><img src="{versioned(f, "img/" + p["cover"])}" alt="{esc(d["title"])}"></div>'
+        if p.get("cover_credit"):
+            cover = f'<div class="cover-wrap">{cover}<p class="cover-credit reveal">{esc(p["cover_credit"][lang])}</p></div>'
     else:
         cover = f'<div class="detail-cover detail-cover-icon reveal">{icon(p.get("icon", "briefcase"))}</div>'
 
