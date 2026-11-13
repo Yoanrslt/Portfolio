@@ -219,7 +219,7 @@ SKILLS = {
             ("Sang-froid", "Décisions autonomes en situation critique, mission Sentinelle."),
             ("Adaptabilité", "De la gendarmerie à la recherche puis à la qualité ; une année d'échange au Québec."),
             ("Pédagogie", "Coaching d'athlètes, encadrement d'élèves, présentations en réunions multiservices."),
-            ("Persévérance", "Un an de préparation aux tests du GIGN, japonais appris en autodidacte."),
+            ("Persévérance", "Deux ans de préparation intensive aux tests du GIGN, japonais appris en autodidacte."),
             ("Esprit de synthèse", "Rigueur scientifique et intelligence émotionnelle au service de la décision."),
         ],
         "languages": [("Français", "Langue maternelle", 100), ("Anglais", "C1 · professionnel", 85),
@@ -253,7 +253,7 @@ SKILLS = {
             ("Composure", "Autonomous decisions in critical situations, Operation Sentinelle."),
             ("Adaptability", "From the Gendarmerie to research, then quality; an exchange year in Quebec."),
             ("Teaching", "Coaching athletes, supervising cadets, presenting in cross-department meetings."),
-            ("Perseverance", "A year of training for the GIGN selection tests, self-taught Japanese."),
+            ("Perseverance", "Two years of intensive training for the GIGN selection tests, self-taught Japanese."),
             ("Synthesis", "Scientific rigour and emotional intelligence in support of decisions."),
         ],
         "languages": [("French", "Native", 100), ("English", "C1 · professional", 85),
@@ -305,33 +305,33 @@ PAGES = [
         "gallery": [],
         "fr": {
             "title": "Master Bio-ingénierie des Tissus et des Implants",
-            "short": "Master IEAP BTI",
+            "short": "Master Bio-ingénierie",
             "org": "Aix-Marseille Université · Faculté des Sciences du Sport",
             "place": "Marseille",
             "period": "Sept. 2025 – 2027",
             "role": "Étudiant en Master 1 puis Master 2",
             "summary": "Une formation pluridisciplinaire, entre industrie et recherche, pour concevoir et évaluer des dispositifs médicaux implantables.",
-            "timeline": "Formation d'ingénieur biomédical à l'interface mécanique, biologie et clinique, adossée à l'Institut des Sciences du Mouvement (AMU & CNRS) et à l'IML de l'AP-HM.",
+            "timeline": "Une formation d'ingénieur biomédical à la frontière entre mécanique, biologie et clinique, adossée à un laboratoire de recherche sur le mouvement et à l'hôpital.",
             "sections": [
-                ("La formation", "<p>Le Master STAPS IEAP parcours <strong>Bio-ingénierie des Tissus et des Implants</strong> forme des ingénieurs capables de développer des implants et dispositifs médicaux pour restaurer les fonctions biomécaniques. Il associe la connaissance du corps humain (anatomie fonctionnelle, biomécanique, neurosciences) à l'ingénierie appliquée : capture du mouvement, modélisation numérique et biomatériaux.</p><p>La formation s'appuie sur le laboratoire <strong>ISM</strong> (Institut des Sciences du Mouvement, AMU & CNRS) et sur l'<strong>IML</strong> (Institut Marseillais de l'appareil Locomoteur, AP-HM), avec des intervenants chercheurs, cliniciens et industriels.</p>"),
-                ("Ce que j'y apprends", "<ul><li><strong>Analyser</strong> : biomécanique, neurophysiologie, neurosciences comportementales, pathologies musculo-squelettiques, mécanobiologie, physique et biocompatibilité des biomatériaux, biotribologie, mécanique des fluides et hémodynamique.</li><li><strong>Concevoir</strong> : CAO et modélisation numérique (SolidWorks, Abaqus, 3-matic), éléments finis, segmentation 3D, instrumentation et mesures, traitement du signal, programmation (Python, MATLAB), statistiques, intelligence artificielle, imagerie médicale.</li><li><strong>Mettre en œuvre</strong> : conception d'évaluations cliniques des DMI, fabrication et déploiement industriel des implants, affaires réglementaires (MDR 2017/745, ISO 13485, ISO 17025), management de projet et d'équipe, conduite de projet en anglais.</li></ul>"),
+                ('La formation', "<p>Ce master forme des ingénieurs capables de concevoir des implants et des dispositifs médicaux. Il associe la connaissance du corps humain (anatomie fonctionnelle, biomécanique, neurosciences) à l'ingénierie appliquée : analyse du mouvement, modélisation numérique, biomatériaux.</p><p>La formation s'appuie sur l'Institut des Sciences du Mouvement, laboratoire de recherche d'Aix-Marseille Université, et sur l'Institut Marseillais de l'appareil Locomoteur, à l'hôpital. Les cours sont donnés par des chercheurs, des médecins et des ingénieurs d'entreprise.</p>"),
+                ("Ce que j'y apprends", "<ul><li><strong>Analyser</strong> : biomécanique, neurophysiologie, neurosciences du comportement, pathologies musculo-squelettiques, mécanobiologie, physique et biocompatibilité des biomatériaux, usure des surfaces articulaires, mécanique des fluides.</li><li><strong>Concevoir</strong> : modélisation 3D et simulation numérique (SolidWorks, Abaqus, 3-matic), segmentation d'images médicales, instrumentation et mesures, traitement du signal, programmation (Python, MATLAB), statistiques, intelligence artificielle.</li><li><strong>Mettre en œuvre</strong> : évaluation clinique des dispositifs implantables, fabrication et déploiement industriel des implants, réglementation européenne et normes qualité, gestion de projet et d'équipe, une partie des cours en anglais.</li></ul>"),
             ],
-            "skills": ["Biomécanique", "Biomatériaux", "CAO", "Éléments finis", "Imagerie médicale", "Traitement du signal", "Python · MATLAB", "MDR 2017/745", "Gestion de projet"],
+            "skills": ["Biomécanique", "Biomatériaux", "Modélisation 3D", "Éléments finis", "Imagerie médicale", "Traitement du signal", "Python · MATLAB", "Réglementation européenne", "Gestion de projet"],
         },
         "en": {
             "title": "MSc in Tissue and Implant Bioengineering",
-            "short": "MSc IEAP BTI",
+            "short": "MSc Bioengineering",
             "org": "Aix-Marseille University · Faculty of Sport Sciences",
             "place": "Marseille, France",
             "period": "Sept. 2025 – 2027",
             "role": "MSc student (years 1 and 2)",
             "summary": "A multidisciplinary programme, between industry and research, to design and evaluate implantable medical devices.",
-            "timeline": "Biomedical engineering degree at the crossroads of mechanics, biology and clinical practice, backed by the Institute of Movement Sciences (AMU & CNRS) and the IML at AP-HM hospitals.",
+            "timeline": "A biomedical engineering degree at the crossroads of mechanics, biology and clinical practice, backed by a movement research laboratory and the hospital.",
             "sections": [
-                ("The programme", "<p>The <strong>Tissue and Implant Bioengineering</strong> track of the IEAP Master's trains engineers to develop implants and medical devices that restore biomechanical function. It combines knowledge of the human body (functional anatomy, biomechanics, neuroscience) with applied engineering: motion capture, numerical modelling and biomaterials.</p><p>It is backed by the <strong>ISM</strong> laboratory (Institute of Movement Sciences, AMU & CNRS) and the <strong>IML</strong> (Marseille Institute of the Locomotor System, AP-HM), with researchers, clinicians and industry professionals teaching.</p>"),
-                ("What I learn", "<ul><li><strong>Analyse</strong>: biomechanics, neurophysiology, behavioural neuroscience, musculoskeletal disorders, mechanobiology, biomaterial physics and biocompatibility, biotribology, fluid mechanics and haemodynamics.</li><li><strong>Design</strong>: CAD and numerical modelling (SolidWorks, Abaqus, 3-matic), finite element analysis, 3D segmentation, instrumentation and measurement, signal processing, programming (Python, MATLAB), statistics, artificial intelligence, medical imaging.</li><li><strong>Deliver</strong>: clinical evaluation design for implantable devices, implant manufacturing and industrial deployment, regulatory affairs (MDR 2017/745, ISO 13485, ISO 17025), project and team management, project work in English.</li></ul>"),
+                ('The programme', "<p>This master's trains engineers to design implants and medical devices. It combines knowledge of the human body (functional anatomy, biomechanics, neuroscience) with applied engineering: movement analysis, numerical modelling, biomaterials.</p><p>It is backed by the Institute of Movement Sciences, a research laboratory of Aix-Marseille University, and by the Marseille Institute of the Locomotor System, at the hospital. Classes are taught by researchers, doctors and engineers from industry.</p>"),
+                ('What I learn', '<ul><li><strong>Analyse</strong>: biomechanics, neurophysiology, behavioural neuroscience, musculoskeletal disorders, mechanobiology, biomaterial physics and biocompatibility, wear of joint surfaces, fluid mechanics.</li><li><strong>Design</strong>: 3D modelling and numerical simulation (SolidWorks, Abaqus, 3-matic), medical image segmentation, instrumentation and measurement, signal processing, programming (Python, MATLAB), statistics, artificial intelligence.</li><li><strong>Deliver</strong>: clinical evaluation of implantable devices, implant manufacturing and industrial deployment, European regulation and quality standards, project and team management, part of the courses taught in English.</li></ul>'),
             ],
-            "skills": ["Biomechanics", "Biomaterials", "CAD", "Finite element analysis", "Medical imaging", "Signal processing", "Python · MATLAB", "MDR 2017/745", "Project management"],
+            "skills": ["Biomechanics", "Biomaterials", "3D modelling", "Finite element analysis", "Medical imaging", "Signal processing", "Python · MATLAB", "European regulation", "Project management"],
         },
     },
     {
@@ -464,7 +464,7 @@ PAGES = [
         "fr": {
             "title": "Préparateur physique",
             "short": "Rouge et Or",
-            "org": "Rouge et Or · équipe de natation de l'Université Laval",
+            "org": "Job étudiant · Rouge et Or, équipe de natation de l'Université Laval",
             "place": "Québec, Canada",
             "period": "Janv. – mai 2025",
             "role": "Job étudiant (CDD)",
@@ -480,7 +480,7 @@ PAGES = [
         "en": {
             "title": "Strength and Conditioning Coach",
             "short": "Rouge et Or",
-            "org": "Rouge et Or · Université Laval swimming team",
+            "org": "Student job · Rouge et Or, Université Laval swimming team",
             "place": "Quebec City, Canada",
             "period": "Jan. – May 2025",
             "role": "Student job (fixed-term)",
@@ -692,9 +692,9 @@ EXTRA_TIMELINE = [
             "timeline": "Strong foundations in maths, physics and chemistry, analytical rigour and an intensive workload."}},
     {"kind": "edu", "year": "2014 – 2017",
      "fr": {"title": "Baccalauréat scientifique, horaires aménagés sport", "org": "Lycée Le Mirail · Bordeaux", "period": "2014 – 2017",
-            "timeline": "Cours le matin six jours sur sept, ateliers et activités sportives l'après-midi."},
+            "timeline": ""},
      "en": {"title": "Scientific baccalaureate, sport-study schedule", "org": "Lycée Le Mirail · Bordeaux", "period": "2014 – 2017",
-            "timeline": "Classes in the morning six days a week, sport in the afternoon."}},
+            "timeline": ""}},
     {"kind": "exp", "year": "2023 – 2024",
      "fr": {"title": "Agent de sécurité", "org": "Job étudiant · Chambéry", "period": "Sept. 2023 – mai 2024",
             "timeline": "Surveillance de bars, de lieux sensibles et de férias, en parallèle de mes études."},
@@ -703,8 +703,8 @@ EXTRA_TIMELINE = [
 ]
 
 # Ordre chronologique du parcours (du plus récent au plus ancien)
-TIMELINE_ORDER = ["hti-technologies", "mobilis", "master-bti", "cirris", "rouge-et-or", "licence-staps", "libm", 2,
-                  "gendarmerie", "armee-de-terre", "premiers-emplois", 0, 1]
+TIMELINE_ORDER = ["hti-technologies", "mobilis", "master-bti", "cirris", "rouge-et-or", "libm", 2,
+                  "licence-staps", "gendarmerie", "armee-de-terre", "premiers-emplois", 0, 1]
 
 # Projets mis en avant (slug de page, tags)
 PROJECTS = [
@@ -722,14 +722,14 @@ PROJECTS = [
 # Au-delà du CV
 BEYOND = [
     {"image": "parachutisme.jpg",
-     "fr": ("Sport & dépassement", "Brevet de parachutisme B, plongée niveau 1, escalade, natation, course à pied et haltérophilie chaque semaine."),
-     "en": ("Sport & challenge", "Skydiving licence B, scuba diving level 1, and weekly climbing, swimming, running and weightlifting.")},
+     "fr": ("Sport & dépassement", "Brevet de parachutisme B, plongée niveau 1. Escalade, natation, course à pied et haltérophilie, pratiqués de façon hebdomadaire."),
+     "en": ("Sport & challenge", "Skydiving licence B, scuba diving level 1. Climbing, swimming, running and weightlifting, practised weekly.")},
     {"image": "voyage-japon.jpg",
      "fr": ("Voyages & langues", "Canada, États-Unis, Japon, Espagne, Italie, Angleterre, Pays-Bas, Allemagne, Hongrie. Japonais appris en autodidacte depuis 3 ans."),
      "en": ("Travel & languages", "Canada, the USA, Japan, Spain, Italy, England, the Netherlands, Germany, Hungary. Self-taught Japanese for 3 years.")},
     {"image": "voyage-randonnee.jpg",
-     "fr": ("Engagements", "Bénévole et assistant à l'ADDAB (association sportive), réserviste au 9e RSAM, un an de préparation aux tests du GIGN."),
-     "en": ("Commitments", "Volunteer and assistant at ADDAB (sports association), reservist with the 9th RSAM, a year of training for the GIGN selection.")},
+     "fr": ("Engagements", "Bénévole et assistant à l'ADDAB (association sportive), réserviste au 9e RSAM, deux ans de préparation intensive aux tests du GIGN."),
+     "en": ("Commitments", "Volunteer and assistant at ADDAB (sports association), reservist with the 9th RSAM, two years of intensive training for the GIGN selection.")},
     {"image": None, "icon": "spark",
      "fr": ("Curiosité", "Sciences, économie, photographie, relations humaines, technologies biomédicales et intelligence artificielle."),
      "en": ("Curiosity", "Science, economics, photography, human relations, biomedical technologies and artificial intelligence.")},

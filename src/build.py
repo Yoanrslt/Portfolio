@@ -220,7 +220,7 @@ def build_home(lang):
     <div class="tl-meta"><span class="tl-date">{esc(d['period'])}</span><span class="tag tag-{kind}">{esc(tag)}</span></div>
     <h3>{esc(d['title'])}</h3>
     <p class="tl-org">{esc(d['org'])}</p>
-    <p>{esc(d['timeline'])}</p>
+    {'<p>' + esc(d['timeline']) + '</p>' if d['timeline'] else ''}
     {btn}
   </article>
 </li>"""
